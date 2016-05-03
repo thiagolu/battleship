@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+.box:hover {
+	background-color: yellow;
+}

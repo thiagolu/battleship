@@ -14,3 +14,11 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(function(){
+  var count = 1;
+
+  $(".box").on('click', (function(){
+    $("#valor").html(count++);
+  }))
+});
