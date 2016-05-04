@@ -24,5 +24,27 @@ Things you may want to cover:
 * ...
 
 
+--------------
+
+Cenários: 
+Quando o usuário acessa o jogo é necessário ver a matriz
+Matriz com colunas de 1 a 10 e linhas de A a J
+
+Inicializar o jogo
+	Carregar navios,
+	Posicionar na matriz,
+	Iniciar com contador zerado
+
+
+Quando o usuário acertar o quadrado vira verde
+Quando o usuário errar o quadrado vira vermelho
+
+Quando um návio é afundado aparece uma mensagem, 
+
+Quando acabarem os navios finalizar o jogo
+Quando um tiro é dado, contar quantidade,
+
+
+
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
